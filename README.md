@@ -13,9 +13,10 @@
 1.  최적 이미지 선택 (1단계): 사용자가 입력한 3장의 방 이미지 중 AI가 가장 적합한 1장(`selected_input_image.jpg`)을 선택합니다.
 2.  공간 분석 리포트 생성 (1단계): 선택된 이미지를 기반으로 공간의 현재 스타일, 문제점, 가구 추가/제거/변경에 대한 추천 사항을 분석하고 파싱된 JSON 파일(`parsed_report.json`)로 저장합니다.
 3.  인테리어 시뮬레이션 (2단계):
-    - 스타일 변경 (`main_new_looks.py`): `style_choice.json`에 따라 방 전체 스타일을 새로운 스타일로 변경합니다.
-    - 가구 부분 수정 (`main_modify_looks.py`): `user_choice.json`에 따라 AI 추천 가구의 추가, 제거, 변경 작업을 순차적으로 적용합니다.
+   - 스타일 변경 (`main_new_looks.py`): `style_choice.json`에 따라 방 전체 스타일을 새로운 스타일로 변경합니다.
+   - 가구 부분 수정 (`main_modify_looks.py`): `user_choice.json`에 따라 AI 추천 가구의 추가, 제거, 변경 작업을 순차적으로 적용합니다.
 4.  3-Angle 뷰 생성 (2단계): 최종 결과 이미지(`img4new3r_org.png`)를 기반으로, 동일한 구조와 스타일을 유지한 채 수평 각도만 변경한 "좌측(-30°)" 및 "우측(+30°)" 뷰 이미지를 추가 생성합니다.
+
 
 # 기술 스택
 
@@ -25,6 +26,7 @@
 | AI 모델  | Google Gemini API | `gemini-2.5-flash` (리포트 분석), `gemini-2.5-flash-image` (이미지 생성/수정) |
 | 라이브러리 | `google-genai`    | Gemini 모델과의 통신                                                       |
 | 라이브러리 | `Pillow`          | 이미지 로드 및 저장 등 기본 처리                                               |
+
 
 # 설치 및 실행 방법
 
