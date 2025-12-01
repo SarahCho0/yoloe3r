@@ -46,9 +46,9 @@
 
 # 설치 및 실행 방법
 
-### 1. 의존성 설치
-
-> 프로젝트에 필요한 Python 패키지를 설치합니다.
+```Python
+1. 의존성 설치
+프로젝트에 필요한 Python 패키지를 설치합니다.
 ```bash
 pip install -r requirements.txt
 
