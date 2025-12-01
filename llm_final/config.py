@@ -1,0 +1,17 @@
+API_KEY = "AIzaSyB9C8KwbLMeB7BLeY5JZutXhyntM7w3qNQ"
+
+# ⬇️ 3장의 최초 입력 이미지 경로 (사용자 입력)
+INITIAL_IMAGE_PATHS = [
+    "/Users/hyeonjucho/Downloads/room6.jpg", 
+    "/Users/hyeonjucho/Downloads/30degree.png",
+    "/Users/hyeonjucho/Downloads/-30degree.png"
+]
+
+# ⬇️ 3장 중 AI가 선택한 '최적 이미지'가 임시로 저장될 경로
+# 이후 모든 프로세스(Report, Style)는 이 경로를 사용합니다.
+SELECTED_IMAGE_PATH = "selected_input_image.jpg"
+
+
+# 사용할 모델
+REPORT_MODEL = "gemini-2.5-flash"
+STYLE_MODEL = "gemini-2.5-flash-image"  # 이미지 출력 모델
