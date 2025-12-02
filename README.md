@@ -44,12 +44,19 @@
 | 라이브러리 | `Pillow`          | 이미지 로드 및 저장 등 기본 처리                                               |
 
 
+
 # 설치 및 실행 방법
 
 ```Python
-1. 의존성 설치
-프로젝트에 필요한 Python 패키지를 설치합니다.
-```bash
+
+1. 코드 다운로드 및 환경 설정
+터미널을 열고 저장소를 클론한 후, 필요한 패키지를 설치합니다.
+
+```Bash
+# 1-1. 저장소 클론 (URL을 실제 저장소 주소로 변경하세요)
+git clone https://github.com/SarahCho0/yoloe3r.git
+cd PE3R
+# 1-2. 의존성 설치
 pip install -r requirements.txt
 
 2. 환경 설정 
