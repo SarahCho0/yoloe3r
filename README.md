@@ -55,7 +55,7 @@
 ```Bash
 # 1-1. 저장소 클론 (URL을 실제 저장소 주소로 변경하세요)
 git clone https://github.com/SarahCho0/yoloe3r.git
-cd PE3R
+cd "내가 만든 파일이름"
 # 1-2. 의존성 설치
 pip install -r requirements.txt
 
