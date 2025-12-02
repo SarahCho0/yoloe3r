@@ -84,6 +84,7 @@ python main_report.py
 단계 2: 사용자 선택 파일 준비
 프론트엔드 또는 수동으로 시뮬레이션 옵션을 style_choice.json 및 user_choice.json에 저장합니다.
 style_choice.json{"selected_style": "AI 추천"} - 방 전체 스타일 변경 시 사용
+
 user_choice.json{"use_add": true, "use_remove": false, "use_change": true} - 가구 부분 수정 시 사용
 
 단계3: 시뮬레이션 실행 (둘 중 하나 선택)
